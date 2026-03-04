@@ -1,0 +1,71 @@
+﻿@model IEnumerable<NominaWeb.Models.DeptEmp>
+
+@{
+    ViewData["Title"] = "DeptEmps";
+}
+
+<h1>DeptEmps</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FromDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ToDate)
+            </th>
+            <th>
+                Departamento
+            </th>
+            <th>
+                Empleado
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.FromDate
+                </td>
+
+                <td>
+                    @item.ToDate
+                </td>
+
+                <td>
+                    @item.DeptNoNavigation.DeptNo
+                </td>
+
+                <td>
+                    @item.EmpNoNavigation.EmpNo
+                </td>
+
+                <td>
+                    <a asp-action="Edit"
+                       asp-route-empNo="@item.EmpNo"
+                       asp-route-deptNo="@item.DeptNo"
+                       asp-route-fromDate="@item.FromDate">Edit</a> |
+
+                    <a asp-action="Details"
+                       asp-route-empNo="@item.EmpNo"
+                       asp-route-deptNo="@item.DeptNo"
+                       asp-route-fromDate="@item.FromDate">Details</a> |
+
+                    <a asp-action="Delete"
+                       asp-route-empNo="@item.EmpNo"
+                       asp-route-deptNo="@item.DeptNo"
+                       asp-route-fromDate="@item.FromDate">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

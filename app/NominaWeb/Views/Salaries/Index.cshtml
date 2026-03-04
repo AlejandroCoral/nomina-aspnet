@@ -1,0 +1,45 @@
+﻿@model IEnumerable<NominaWeb.Models.Salary>
+
+@{
+    ViewData["Title"] = "Salaries";
+}
+
+<h1>Salaries</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>EmpNo</th>
+            <th>Salary</th>
+            <th>FromDate</th>
+            <th>ToDate</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmpNo</td>
+                <td>@item.Salary1</td>
+                <td>@item.FromDate</td>
+                <td>@item.ToDate</td>
+                <td>
+                    <a asp-action="Edit"
+                       asp-route-empNo="@item.EmpNo"
+                       asp-route-fromDate="@item.FromDate">Edit</a> |
+                    <a asp-action="Details"
+                       asp-route-empNo="@item.EmpNo"
+                       asp-route-fromDate="@item.FromDate">Details</a> |
+                    <a asp-action="Delete"
+                       asp-route-empNo="@item.EmpNo"
+                       asp-route-fromDate="@item.FromDate">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
