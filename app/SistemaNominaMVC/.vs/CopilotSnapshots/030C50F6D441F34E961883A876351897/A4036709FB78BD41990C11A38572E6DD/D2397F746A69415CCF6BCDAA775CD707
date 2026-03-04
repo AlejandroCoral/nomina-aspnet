@@ -1,0 +1,63 @@
+﻿@model SistemaNominaMVC.Models.Department
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Eliminar Departamento - Sistema de Nómina</title>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen p-6 font-sans">
+
+    <div class="bg-white w-full max-w-md rounded-[2.5rem] shadow-2xl overflow-hidden border border-gray-100">
+        <div class="bg-red-500 p-8 text-white text-center relative overflow-hidden">
+            <div class="absolute -right-4 -top-4 bg-red-400/20 w-32 h-32 rounded-full"></div>
+            
+            <div class="relative z-10">
+                <div class="bg-red-400/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse border-2 border-red-200/50">
+                    <i class='bx bxs-trash-alt text-5xl'></i>
+                </div>
+                <h2 class="text-2xl font-black uppercase italic tracking-tighter">¿Confirmar Borrado?</h2>
+                <p class="text-red-100 text-[10px] font-bold uppercase mt-1 tracking-[3px]">Esta acción no se puede deshacer</p>
+            </div>
+        </div>
+
+        <div class="p-8">
+            <div class="bg-slate-50 rounded-[2rem] p-6 border border-slate-100 mb-8 shadow-inner">
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-2">
+                    <i class='bx bx-info-circle'></i> Departamento a eliminar
+                </p>
+                <div class="flex items-center gap-4">
+                    <div class="bg-white px-3 py-2 rounded-xl shadow-sm border border-slate-200 text-slate-500 font-mono text-xs font-bold">
+                        @Model.dept_no
+                    </div>
+                    <h3 class="text-xl font-black text-slate-800 tracking-tight">@Model.dept_name</h3>
+                </div>
+            </div>
+
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="dept_no" />
+                
+                <div class="flex flex-col gap-3">
+                    <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-black py-4 rounded-2xl shadow-xl shadow-red-100 transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-2 group">
+                        <i class='bx bxs-error-circle text-xl group-hover:shake'></i> Eliminar Definitivamente
+                    </button>
+                    
+                    <a asp-action="Index" class="w-full text-center py-4 bg-slate-100 hover:bg-slate-200 text-slate-500 font-bold rounded-2xl transition-all text-xs uppercase tracking-widest border border-slate-200">
+                        No, mantener registro
+                    </a>
+                </div>
+            </form>
+            
+            <p class="text-center text-[9px] text-slate-400 uppercase font-bold mt-6 tracking-tighter">
+                Asegúrese de que no haya empleados vinculados a esta área.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

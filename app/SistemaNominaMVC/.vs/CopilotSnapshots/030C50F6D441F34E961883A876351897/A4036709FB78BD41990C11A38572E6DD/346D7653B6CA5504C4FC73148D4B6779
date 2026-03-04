@@ -1,0 +1,70 @@
+﻿@model SistemaNominaMVC.Models.Department
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Detalles del Departamento - Sistema de Nómina</title>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen p-6 font-sans">
+
+    <div class="bg-white w-full max-w-lg rounded-[2.5rem] shadow-2xl overflow-hidden border border-gray-100">
+        <div class="bg-indigo-600 p-8 text-white relative overflow-hidden">
+            <div class="absolute right-0 top-0 bg-indigo-500 w-32 h-32 rounded-bl-full opacity-50"></div>
+            <div class="relative z-10">
+                <p class="text-[10px] font-black uppercase tracking-[4px] opacity-70 mb-1">Ficha Técnica</p>
+                <h2 class="text-3xl font-black italic uppercase tracking-tighter">@Model.dept_name</h2>
+            </div>
+            <i class='bx bxs-buildings absolute -right-4 -bottom-4 text-9xl text-white/10'></i>
+        </div>
+
+        <div class="p-10">
+            <div class="space-y-6">
+                <div class="group bg-slate-50 p-6 rounded-3xl border border-slate-100 transition-all hover:bg-white hover:shadow-md">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Código de Registro</p>
+                            <h3 class="text-2xl font-mono font-black text-indigo-600">@Model.dept_no</h3>
+                        </div>
+                        <div class="bg-indigo-100 p-3 rounded-2xl text-indigo-500">
+                            <i class='bx bx-hash text-2xl'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl border border-slate-100 transition-all hover:bg-white hover:shadow-md">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Nombre Oficial</p>
+                            <h3 class="text-xl font-bold text-slate-800">@Model.dept_name</h3>
+                        </div>
+                        <div class="bg-slate-200 p-3 rounded-2xl text-slate-400">
+                            <i class='bx bx-purchase-tag-alt text-2xl'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4 mt-10">
+                <a asp-action="Edit" asp-route-id="@Model?.dept_no" class="flex-[2] bg-indigo-600 hover:bg-indigo-700 text-white text-center py-4 rounded-2xl font-black shadow-xl shadow-indigo-100 transition-all uppercase tracking-widest text-xs flex items-center justify-center gap-2">
+                    <i class='bx bxs-edit-alt text-lg'></i> Editar Información
+                </a>
+                
+                <a asp-action="Index" class="flex-1 text-center py-4 bg-white hover:bg-slate-50 text-slate-500 font-bold rounded-2xl transition-all text-xs uppercase tracking-widest flex items-center justify-center gap-2 border border-slate-200">
+                    <i class='bx bx-arrow-back text-lg'></i> Volver
+                </a>
+            </div>
+
+            <p class="text-center text-[9px] text-slate-400 uppercase font-bold mt-8 tracking-widest opacity-50">
+                Sistema de Control de Estructura Organizacional
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

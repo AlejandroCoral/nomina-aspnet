@@ -1,0 +1,57 @@
+﻿@model SistemaNominaMVC.Models.Employee
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dar de Baja - Sistema de Nómina</title>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen p-6">
+
+    <div class="bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+        <div class="bg-red-600 p-8 text-white text-center relative">
+            <div class="bg-white/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 border-4 border-white/30">
+                <i class='bx bxs-user-minus text-5xl'></i>
+            </div>
+            <h2 class="text-2xl font-black uppercase italic tracking-tighter">¿Dar de Baja Empleado?</h2>
+            <p class="text-red-100 text-[10px] font-bold uppercase tracking-widest mt-1">Esta acción eliminará permanentemente al colaborador</p>
+        </div>
+
+        <div class="p-8">
+            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 mb-8 space-y-4">
+                <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                    <span class="text-[10px] font-black text-slate-400 uppercase">Nombre Completo</span>
+                    <span class="font-bold text-slate-800">@Model.first_name @Model.last_name</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                    <span class="text-[10px] font-black text-slate-400 uppercase">Cédula / CI</span>
+                    <span class="font-mono font-bold text-red-600">@Model.ci</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] font-black text-slate-400 uppercase">Correo</span>
+                    <span class="text-sm text-slate-600 italic">@Model.correo</span>
+                </div>
+            </div>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="emp_no" />
+                
+                <div class="flex flex-col gap-3">
+                    <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-black py-4 rounded-2xl shadow-xl shadow-red-100 transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-2">
+                        <i class='bx bxs-trash text-xl'></i> Confirmar Desincorporación
+                    </button>
+                    
+                    <a asp-action="Index" class="w-full text-center py-4 bg-slate-100 hover:bg-slate-200 text-slate-500 font-bold rounded-2xl transition-all text-xs uppercase tracking-widest">
+                        No, cancelar y volver
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

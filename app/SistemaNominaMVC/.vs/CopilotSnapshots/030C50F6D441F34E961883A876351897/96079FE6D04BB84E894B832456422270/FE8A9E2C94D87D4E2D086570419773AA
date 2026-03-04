@@ -1,0 +1,147 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SistemaNominaMVC.Data;
+using SistemaNominaMVC.Models;
+
+namespace SistemaNominaMVC.Controllers
+{
+    public class Dept_EmpController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public Dept_EmpController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Dept_Emp
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Dept_Emps.ToListAsync());
+        }
+
+        // GET: Dept_Emp/Details?empNo=10001&deptNo=d001
+        public async Task<IActionResult> Details(int? empNo, string deptNo)
+        {
+            if (empNo == null || deptNo == null) return NotFound();
+
+            var dept_Emp = await _context.Dept_Emps
+                .FirstOrDefaultAsync(m => m.emp_no == empNo && m.dept_no == deptNo);
+
+            if (dept_Emp == null) return NotFound();
+
+            return View(dept_Emp);
+        }
+
+        // GET: Dept_Emp/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("emp_no,dept_no,from_date,to_date")] Dept_Emp model)
+        {
+            if (!string.IsNullOrEmpty(model.to_date) && model.to_date != "9999-01-01")
+            {
+                if (DateTime.Parse(model.to_date) < DateTime.Parse(model.from_date))
+                {
+                    ModelState.AddModelError("to_date", "La fecha de finalización no puede ser anterior a la de inicio.");
+                }
+            }
+
+            if (ModelState.IsValid)
+            {
+                // Cerrar asignación anterior
+                var asignacionActiva = await _context.Dept_Emps
+                    .FirstOrDefaultAsync(d => d.emp_no == model.emp_no && d.to_date == "9999-01-01");
+
+                if (asignacionActiva != null)
+                {
+                    asignacionActiva.to_date = model.from_date;
+                    _context.Update(asignacionActiva);
+                }
+
+                if (string.IsNullOrEmpty(model.to_date)) model.to_date = "9999-01-01";
+
+                _context.Add(model);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+
+        // GET: Dept_Emp/Edit?empNo=10001&deptNo=d001
+        public async Task<IActionResult> Edit(int? empNo, string deptNo)
+        {
+            if (empNo == null || deptNo == null) return NotFound();
+
+            var dept_Emp = await _context.Dept_Emps
+                .FirstOrDefaultAsync(m => m.emp_no == empNo && m.dept_no == deptNo);
+
+            if (dept_Emp == null) return NotFound();
+            return View(dept_Emp);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int empNo, string deptNo, [Bind("emp_no,dept_no,from_date,to_date")] Dept_Emp dept_Emp)
+        {
+            if (empNo != dept_Emp.emp_no || deptNo != dept_Emp.dept_no) return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(dept_Emp);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!Dept_EmpExists(dept_Emp.emp_no, dept_Emp.dept_no)) return NotFound();
+                    else throw;
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(dept_Emp);
+        }
+
+        // GET: Dept_Emp/Delete?empNo=10001&deptNo=d001
+        public async Task<IActionResult> Delete(int? empNo, string deptNo)
+        {
+            if (empNo == null || deptNo == null) return NotFound();
+
+            var dept_Emp = await _context.Dept_Emps
+                .FirstOrDefaultAsync(m => m.emp_no == empNo && m.dept_no == deptNo);
+
+            if (dept_Emp == null) return NotFound();
+
+            return View(dept_Emp);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int empNo, string deptNo)
+        {
+            var dept_Emp = await _context.Dept_Emps
+                .FirstOrDefaultAsync(m => m.emp_no == empNo && m.dept_no == deptNo);
+
+            if (dept_Emp != null)
+            {
+                _context.Dept_Emps.Remove(dept_Emp);
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool Dept_EmpExists(int empNo, string deptNo)
+        {
+            return _context.Dept_Emps.Any(e => e.emp_no == empNo && e.dept_no == deptNo);
+        }
+    }
+}

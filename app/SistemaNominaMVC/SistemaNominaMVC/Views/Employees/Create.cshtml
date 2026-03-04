@@ -1,0 +1,72 @@
+﻿@model SistemaNominaMVC.Models.Employee
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Nuevo Empleado - Sistema de Nómina</title>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen p-6">
+
+    <div class="bg-white w-full max-w-2xl rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+        <div class="bg-slate-800 p-6 text-white flex justify-between items-center">
+            <div>
+                <h2 class="text-xl font-bold italic uppercase tracking-wider">Registrar <span class="text-blue-400">Empleado</span></h2>
+                <p class="text-slate-400 text-xs font-medium">Complete todos los campos requeridos</p>
+            </div>
+            <i class='bx bxs-user-plus text-4xl text-blue-400'></i>
+        </div>
+
+        <form asp-action="Create" class="p-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div asp-validation-summary="ModelOnly" class="text-red-500 text-xs col-span-full"></div>
+
+            <div class="space-y-1">
+                <label class="text-xs font-black text-slate-500 uppercase ml-1">ID Empleado</label>
+                <input asp-for="emp_no" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all" placeholder="Ej: 1001" />
+            </div>
+
+            <div class="space-y-1">
+                <label class="text-xs font-black text-slate-500 uppercase ml-1">Cédula / C.I.</label>
+                <input asp-for="ci" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all" placeholder="0000000000" />
+            </div>
+
+            <div class="space-y-1">
+                <label class="text-xs font-black text-slate-500 uppercase ml-1">Nombre</label>
+                <input asp-for="first_name" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all" />
+            </div>
+
+            <div class="space-y-1">
+                <label class="text-xs font-black text-slate-500 uppercase ml-1">Apellido</label>
+                <input asp-for="last_name" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all" />
+            </div>
+
+            <div class="space-y-1">
+                <label class="text-xs font-black text-slate-500 uppercase ml-1">Género (M/F)</label>
+                <select asp-for="gender" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all">
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select>
+            </div>
+
+            <div class="space-y-1">
+                <label class="text-xs font-black text-slate-500 uppercase ml-1">Correo Electrónico</label>
+                <input asp-for="correo" type="email" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all" placeholder="usuario@empresa.com" />
+            </div>
+
+            <div class="col-span-full flex gap-3 pt-4">
+                <button type="submit" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl shadow-lg shadow-blue-200 transition-all uppercase tracking-widest text-sm">
+                    Guardar Registro
+                </button>
+                <a asp-action="Index" class="px-6 py-3 bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold rounded-xl transition-all text-sm uppercase flex items-center">
+                    Cancelar
+                </a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

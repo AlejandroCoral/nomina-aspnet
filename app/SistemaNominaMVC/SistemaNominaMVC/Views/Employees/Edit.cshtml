@@ -1,0 +1,99 @@
+﻿@model SistemaNominaMVC.Models.Employee
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Editar Empleado - Sistema de Nómina</title>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen p-6">
+
+    <div class="bg-white w-full max-w-3xl rounded-[2.5rem] shadow-2xl overflow-hidden border border-gray-100">
+        <div class="bg-amber-500 p-8 text-white flex justify-between items-center">
+            <div>
+                <h2 class="text-2xl font-black italic uppercase tracking-wider">Actualizar <span class="text-amber-900/40">Colaborador</span></h2>
+                <p class="text-amber-50 text-[10px] font-bold uppercase tracking-[3px] mt-1">Expediente #@Model.emp_no</p>
+            </div>
+            <i class='bx bxs-user-detail text-6xl opacity-30'></i>
+        </div>
+
+        <form asp-action="Edit" class="p-10">
+            <div asp-validation-summary="ModelOnly" class="text-red-500 text-xs italic mb-6"></div>
+            <input type="hidden" asp-for="emp_no" />
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Documento de Identidad (CI)</label>
+                    <div class="relative">
+                        <i class='bx bxs-id-card absolute left-4 top-1/2 -translate-y-1/2 text-amber-500 text-xl'></i>
+                        <input asp-for="ci" class="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-amber-500/10 focus:border-amber-500 transition-all font-bold text-slate-700" />
+                    </div>
+                    <span asp-validation-for="ci" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Correo Electrónico</label>
+                    <div class="relative">
+                        <i class='bx bxs-envelope absolute left-4 top-1/2 -translate-y-1/2 text-amber-500 text-xl'></i>
+                        <input asp-for="correo" type="email" class="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-amber-500/10 focus:border-amber-500 transition-all font-bold text-slate-700" />
+                    </div>
+                    <span asp-validation-for="correo" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Nombres</label>
+                    <input asp-for="first_name" class="w-full px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-amber-500/10 focus:border-amber-500 transition-all font-bold text-slate-700" />
+                    <span asp-validation-for="first_name" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Apellidos</label>
+                    <input asp-for="last_name" class="w-full px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-amber-500/10 focus:border-amber-500 transition-all font-bold text-slate-700" />
+                    <span asp-validation-for="last_name" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Fecha de Nacimiento</label>
+                    <input asp-for="birth_date" type="date" class="w-full px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-amber-500/10 focus:border-amber-500 transition-all font-bold text-slate-700" />
+                    <span asp-validation-for="birth_date" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Fecha de Ingreso</label>
+                    <input asp-for="hire_date" type="date" class="w-full px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-amber-500/10 focus:border-amber-500 transition-all font-bold text-slate-700" />
+                    <span asp-validation-for="hire_date" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2 md:col-span-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Género</label>
+                    <select asp-for="gender" class="w-full px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-amber-500/10 focus:border-amber-500 transition-all font-bold text-slate-700">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                    </select>
+                    <span asp-validation-for="gender" class="text-red-500 text-[10px]"></span>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4 mt-10">
+                <button type="submit" class="flex-[2] bg-amber-500 hover:bg-amber-600 text-white font-black py-4 rounded-2xl shadow-xl shadow-amber-100 transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-2">
+                    <i class='bx bx-save text-xl'></i> Guardar Cambios
+                </button>
+                <a asp-action="Index" class="flex-1 text-center py-4 bg-slate-100 hover:bg-slate-200 text-slate-500 font-bold rounded-2xl transition-all text-xs uppercase tracking-widest">
+                    Cancelar
+                </a>
+            </div>
+        </form>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

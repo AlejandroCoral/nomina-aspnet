@@ -1,0 +1,50 @@
+﻿-- Script seguro para convertir dept_no a NVARCHAR(50)
+-- 1) HAZ BACKUP de la base de datos antes de ejecutar cualquier cambio.
+-- 2) Ejecuta este script en un entorno de desarrollo primero.
+
+-- Mostrar tipos actuales
+SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE COLUMN_NAME = 'dept_no';
+
+-- Generar comandos para eliminar constraints FK que referencien Departments(dept_no)
+DECLARE @drop_sql NVARCHAR(MAX) = N'';
+SELECT @drop_sql = @drop_sql + 'ALTER TABLE [' + OBJECT_SCHEMA_NAME(fk.parent_object_id) + '].[' + OBJECT_NAME(fk.parent_object_id) + '] DROP CONSTRAINT [' + fk.name + '];' + CHAR(13)
+FROM sys.foreign_keys fk
+JOIN sys.foreign_key_columns fkc ON fk.object_id = fkc.constraint_object_id
+JOIN sys.columns c ON fkc.referenced_object_id = c.object_id AND fkc.referenced_column_id = c.column_id
+WHERE OBJECT_NAME(fk.referenced_object_id) = 'Departments' AND c.name = 'dept_no';
+
+PRINT '-- Revisa las siguientes instrucciones para eliminar FK constraints antes de ejecutar:';
+PRINT @drop_sql;
+
+-- Si estás seguro, descomenta la siguiente línea para ejecutar los drops automáticamente
+-- EXEC sp_executesql @drop_sql;
+
+-- Cambiar el tipo de columna a NVARCHAR(50)
+-- Ajusta NULL/NOT NULL según tu modelo (en este proyecto la propiedad es NOT NULL)
+ALTER TABLE [dbo].[Departments] ALTER COLUMN [dept_no] NVARCHAR(50) NOT NULL;
+ALTER TABLE [dbo].[Dept_Emp] ALTER COLUMN [dept_no] NVARCHAR(50) NOT NULL;
+ALTER TABLE [dbo].[Dept_Manager] ALTER COLUMN [dept_no] NVARCHAR(50) NOT NULL;
+
+-- Recrear FK constraints (ejemplo; ajusta si tus tablas o nombres son distintos)
+-- Si conoces los nombres originales usa esos, si no usa los que se muestran abajo
+IF NOT EXISTS (
+    SELECT 1 FROM sys.foreign_keys fk
+    WHERE fk.parent_object_id = OBJECT_ID('dbo.Dept_Emp') AND fk.referenced_object_id = OBJECT_ID('dbo.Departments')
+)
+BEGIN
+    ALTER TABLE [dbo].[Dept_Emp]
+    ADD CONSTRAINT [FK_Dept_Emp_Departments_dept_no] FOREIGN KEY([dept_no]) REFERENCES [dbo].[Departments]([dept_no]);
+END
+
+IF NOT EXISTS (
+    SELECT 1 FROM sys.foreign_keys fk
+    WHERE fk.parent_object_id = OBJECT_ID('dbo.Dept_Manager') AND fk.referenced_object_id = OBJECT_ID('dbo.Departments')
+)
+BEGIN
+    ALTER TABLE [dbo].[Dept_Manager]
+    ADD CONSTRAINT [FK_Dept_Manager_Departments_dept_no] FOREIGN KEY([dept_no]) REFERENCES [dbo].[Departments]([dept_no]);
+END
+
+PRINT 'Operaci\u00f3n completada (revisa mensajes y errores).';

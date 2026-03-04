@@ -1,0 +1,70 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace SistemaNominaMVC.Migrations
+{
+    public partial class DeptNoToString : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            // Si hay FK que referencien Departments.dept_no, EF generará errores; editar migración manualmente si es necesario.
+            migrationBuilder.AlterColumn<string>(
+                name: "dept_no",
+                table: "Departments",
+                type: "nvarchar(50)",
+                maxLength: 50,
+                nullable: false,
+                oldClrType: typeof(int),
+                oldType: "int");
+
+            migrationBuilder.AlterColumn<string>(
+                name: "dept_no",
+                table: "Dept_Emp",
+                type: "nvarchar(50)",
+                maxLength: 50,
+                nullable: false,
+                oldClrType: typeof(int),
+                oldType: "int");
+
+            migrationBuilder.AlterColumn<string>(
+                name: "dept_no",
+                table: "Dept_Manager",
+                type: "nvarchar(50)",
+                maxLength: 50,
+                nullable: false,
+                oldClrType: typeof(int),
+                oldType: "int");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.AlterColumn<int>(
+                name: "dept_no",
+                table: "Dept_Manager",
+                type: "int",
+                nullable: false,
+                oldClrType: typeof(string),
+                oldType: "nvarchar(50)",
+                oldMaxLength: 50);
+
+            migrationBuilder.AlterColumn<int>(
+                name: "dept_no",
+                table: "Dept_Emp",
+                type: "int",
+                nullable: false,
+                oldClrType: typeof(string),
+                oldType: "nvarchar(50)",
+                oldMaxLength: 50);
+
+            migrationBuilder.AlterColumn<int>(
+                name: "dept_no",
+                table: "Departments",
+                type: "int",
+                nullable: false,
+                oldClrType: typeof(string),
+                oldType: "nvarchar(50)",
+                oldMaxLength: 50);
+        }
+    }
+}

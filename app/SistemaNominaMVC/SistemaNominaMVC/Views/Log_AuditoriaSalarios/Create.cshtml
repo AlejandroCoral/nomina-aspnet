@@ -1,0 +1,92 @@
+﻿@model SistemaNominaMVC.Models.Log_AuditoriaSalarios
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Nuevo Registro de Auditoría - Sistema de Nómina</title>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen p-6">
+
+    <div class="bg-white w-full max-w-2xl rounded-[2.5rem] shadow-2xl overflow-hidden border border-gray-100">
+        <div class="bg-slate-800 p-8 text-white flex justify-between items-center relative overflow-hidden">
+            <div class="relative z-10">
+                <h2 class="text-2xl font-black italic uppercase tracking-wider">Log de <span class="text-emerald-400">Auditoría</span></h2>
+                <p class="text-slate-400 text-[10px] font-bold uppercase tracking-[3px] mt-1">Registro de Modificaciones Salariales</p>
+            </div>
+            <i class='bx bx-fingerprint text-6xl opacity-20 absolute -right-2 -top-2'></i>
+        </div>
+
+        <form asp-action="Create" class="p-10">
+            <div asp-validation-summary="ModelOnly" class="text-red-500 text-xs italic mb-6"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Usuario Responsable</label>
+                    <div class="relative">
+                        <i class='bx bxs-user-check absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-xl'></i>
+                        <input asp-for="usuario" class="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all font-bold text-slate-700" placeholder="Nombre de usuario" />
+                    </div>
+                    <span asp-validation-for="usuario" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Fecha del Cambio</label>
+                    <div class="relative">
+                        <i class='bx bx-time absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-xl'></i>
+                        <input asp-for="fechaActualiz" type="datetime-local" class="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all font-bold text-slate-700" />
+                    </div>
+                    <span asp-validation-for="fechaActualiz" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">ID Empleado Afectado</label>
+                    <div class="relative">
+                        <i class='bx bxs-user-pin absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-xl'></i>
+                        <input asp-for="emp_no" class="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all font-bold text-slate-700" />
+                    </div>
+                    <span asp-validation-for="emp_no" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Monto Salarial</label>
+                    <div class="relative">
+                        <i class='bx bx-money absolute left-4 top-1/2 -translate-y-1/2 text-emerald-500 text-xl'></i>
+                        <input asp-for="salario" type="number" step="0.01" class="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all font-bold text-slate-700" />
+                    </div>
+                    <span asp-validation-for="salario" class="text-red-500 text-[10px]"></span>
+                </div>
+
+                <div class="space-y-2 md:col-span-2">
+                    <label class="text-[10px] font-black text-slate-400 uppercase ml-1 tracking-widest">Descripción del Ajuste</label>
+                    <div class="relative">
+                        <i class='bx bx-list-check absolute left-4 top-4 text-slate-400 text-xl'></i>
+                        <textarea asp-for="DetalleCambio" rows="3" class="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all font-medium text-slate-700" placeholder="Describa brevemente por qué se ajustó el salario..."></textarea>
+                    </div>
+                    <span asp-validation-for="DetalleCambio" class="text-red-500 text-[10px]"></span>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4 mt-10">
+                <button type="submit" class="flex-[2] bg-slate-800 hover:bg-slate-900 text-white font-black py-4 rounded-2xl shadow-xl shadow-slate-200 transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-2">
+                    <i class='bx bx-shield-quarter text-xl'></i> Registrar Auditoría
+                </button>
+                <a asp-action="Index" class="flex-1 text-center py-4 bg-slate-100 hover:bg-slate-200 text-slate-500 font-bold rounded-2xl transition-all text-xs uppercase tracking-widest">
+                    Volver
+                </a>
+            </div>
+        </form>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

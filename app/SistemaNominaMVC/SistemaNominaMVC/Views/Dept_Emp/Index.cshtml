@@ -1,0 +1,96 @@
+﻿@model IEnumerable<SistemaNominaMVC.Models.Dept_Emp>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Asignaciones - Nómina</title>
+</head>
+<body class="bg-slate-100 p-8 font-sans">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
+            <a asp-controller="Home" asp-action="Index" class="text-slate-500 hover:text-cyan-600 flex items-center gap-2 transition-colors font-bold uppercase text-[10px] tracking-[2px]">
+                <i class='bx bx-arrow-back text-2xl'></i> Dashboard
+            </a>
+            <h1 class="text-3xl font-black text-slate-800 italic uppercase">Relación <span class="text-cyan-500 text-shadow-sm">Emp / Dept</span></h1>
+            <a asp-action="Create" class="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-2 rounded-xl font-black shadow-lg shadow-cyan-100 transition-all uppercase text-[10px] tracking-widest flex items-center gap-2">
+                <i class='bx bx-link-plus text-xl'></i> Nueva Asignación
+            </a>
+        </div>
+
+        <div class="bg-white rounded-[2.5rem] shadow-2xl border border-gray-100 overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left">
+                    <thead class="bg-slate-800 text-white font-bold uppercase text-[10px]">
+                        <tr>
+                            <th class="p-6 tracking-widest">ID Empleado</th>
+                            <th class="p-6 tracking-widest">ID Departamento</th>
+                            <th class="p-6 tracking-widest">Fecha Inicio</th>
+                            <th class="p-6 tracking-widest">Fecha Fin</th>
+                            <th class="p-6 text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-50">
+                        @foreach (var item in Model)
+                        {
+                            <tr class="hover:bg-cyan-50/40 transition-colors group">
+                                <td class="p-6">
+                                    <div class="flex items-center gap-3">
+                                        <div class="bg-slate-100 p-2 rounded-lg text-slate-400 group-hover:bg-cyan-100 group-hover:text-cyan-600 transition-colors">
+                                            <i class='bx bxs-user-badge text-xl'></i>
+                                        </div>
+                                        <span class="font-black text-slate-700">#@item.emp_no</span>
+                                    </div>
+                                </td>
+                                <td class="p-6 font-bold text-cyan-600 tracking-wider">
+                                    <i class='bx bxs-building-house opacity-30'></i> @item.dept_no
+                                </td>
+                                <td class="p-6 text-slate-500 font-mono text-xs">@item.from_date</td>
+                                <td class="p-6">
+                                    <span class="px-3 py-1 rounded-full text-[10px] font-black uppercase @(item.to_date == "9999-01-01" ? "bg-emerald-100 text-emerald-700" : "bg-slate-100 text-slate-400")">
+                                        @(item.to_date == "9999-01-01" ? "Activo" : item.to_date)
+                                    </span>
+                                </td>
+                                <td class="p-6 text-center">
+                                    <div class="flex justify-center gap-3">
+                                        <a asp-action="Edit"
+                                               asp-route-empNo="@item.emp_no"
+                                               asp-route-deptNo="@item.dept_no"
+                                               class="p-2 bg-cyan-50 rounded-xl text-cyan-600 hover:bg-cyan-500 hover:text-white transition-all shadow-sm" title="Editar Vínculo">
+                                            <i class='bx bxs-edit-alt text-xl'></i>
+                                        </a>
+
+                                        <a asp-action="Delete"
+                                               asp-route-empNo="@item.emp_no"
+                                               asp-route-deptNo="@item.dept_no"
+                                               class="p-2 bg-red-50 rounded-xl text-red-400 hover:bg-red-500 hover:text-white transition-all shadow-sm" title="Eliminar Vínculo">
+                                            <i class='bx bxs-trash text-xl'></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            
+            @if (!Model.Any())
+            {
+                <div class="p-20 text-center">
+                    <i class='bx bx-user-x text-7xl text-slate-200 mb-4'></i>
+                    <p class="text-slate-400 font-black uppercase tracking-widest text-xs">No hay relaciones registradas</p>
+                </div>
+            }
+        </div>
+        
+        <p class="text-[9px] text-slate-400 font-black uppercase text-center mt-10 tracking-[6px] opacity-50">
+            Control de Asignaciones de Personal
+        </p>
+    </div>
+</body>
+</html>

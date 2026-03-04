@@ -1,0 +1,66 @@
+﻿@model IEnumerable<SistemaNominaMVC.Models.Department>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Departamentos - Nómina</title>
+</head>
+<body class="bg-slate-100 p-8 font-sans">
+    <div class="max-w-5xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-10 gap-4">
+            <a asp-controller="Home" asp-action="Index" class="text-slate-500 hover:text-indigo-600 flex items-center gap-2 font-bold uppercase text-xs tracking-widest transition-colors">
+                <i class='bx bx-arrow-back text-2xl'></i> Dashboard
+            </a>
+            <h1 class="text-3xl font-black text-slate-800 italic uppercase">Áreas de <span class="text-indigo-600">Trabajo</span></h1>
+            <a asp-action="Create" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-2xl font-black shadow-xl shadow-indigo-100 transition-all uppercase text-xs tracking-widest flex items-center gap-2">
+                <i class='bx bx-plus-circle text-lg'></i> Nueva Área
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="bg-white p-6 rounded-[2rem] shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-xl hover:shadow-indigo-50 transition-all group border-b-4 border-b-transparent hover:border-b-indigo-500">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-indigo-50 p-4 rounded-2xl text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                                <i class='bx bxs-buildings text-3xl'></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] font-black text-slate-400 uppercase tracking-[3px]">ID: @item.dept_no</p>
+                                <h3 class="text-lg font-black text-slate-700 leading-tight">@item.dept_name</h3>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <a asp-action="Edit" asp-route-id="@item.dept_no" class="p-2 text-slate-300 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-all" title="Editar">
+                                <i class='bx bxs-edit text-2xl'></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.dept_no" class="p-2 text-slate-300 hover:text-red-600 hover:bg-red-50 rounded-xl transition-all" title="Eliminar">
+                                <i class='bx bxs-trash text-2xl'></i>
+                            </a>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-span-full bg-white p-20 rounded-[3rem] text-center border-2 border-dashed border-slate-200">
+                    <i class='bx bx-folder-open text-7xl text-slate-200 mb-4'></i>
+                    <p class="text-slate-400 font-bold uppercase tracking-widest">No hay departamentos registrados</p>
+                </div>
+            }
+        </div>
+
+        <p class="text-center text-[10px] text-slate-400 font-black uppercase mt-12 tracking-[5px] opacity-40">
+            Módulo de Estructura Organizacional
+        </p>
+    </div>
+</body>
+</html>

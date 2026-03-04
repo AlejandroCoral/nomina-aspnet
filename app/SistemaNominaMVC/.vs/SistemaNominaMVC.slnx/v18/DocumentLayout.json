@@ -1,0 +1,1019 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\Migrations\\DeptNoToString_Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\DeptNoToString_Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\salariescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\salariescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\dept_managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\dept_managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\dept_empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\dept_empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\salaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\salaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\salaries\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\salaries\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\salaries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\salaries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\salaries\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\salaries\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_manager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_manager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_manager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_manager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_manager\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_manager\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_manager\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_manager\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_emp\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_emp\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_emp\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_emp\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_emp\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_emp\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_emp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_emp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\departments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\departments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\salaries\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\salaries\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\log_auditoriasalarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\log_auditoriasalarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\log_auditoriasalarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\log_auditoriasalarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\log_auditoriasalarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\log_auditoriasalarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\log_auditoriasalarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\log_auditoriasalarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\dept_manager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\dept_manager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\log_auditoriasalarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\log_auditoriasalarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\log_auditoriasalarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\log_auditoriasalarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\dept_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\dept_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\log_auditoriasalarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\log_auditoriasalarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\dept_emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\dept_emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\models\\departmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\models\\departmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\migrations\\20260304002430_inicializaciondefinitiva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\migrations\\20260304002430_inicializaciondefinitiva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|c:\\users\\usuario\\source\\repos\\sistemanominamvc\\sistemanominamvc\\controllers\\titlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1EABE4-0FDD-C8B7-5C1E-7A2CB7E6CA3A}|SistemaNominaMVC\\SistemaNominaMVC.csproj|solutionrelative:sistemanominamvc\\controllers\\titlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\Migrations\\DeptNoToString_Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\DeptNoToString_Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\Migrations\\20260304_DeptNoToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260304_DeptNoToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeptNoToString_Script.sql ",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\Migrations\\DeptNoToString_Script.sql",
+              "RelativeDocumentMoniker": "Migrations\\DeptNoToString_Script.sql",
+              "ToolTip": "DeptNoToString_Script.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-04T04:23:14.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Emp\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Emp\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:58:12.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Departments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Departments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:55:58.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAewEMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:40:59.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260304_DeptNoToString.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\Migrations\\20260304_DeptNoToString.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260304_DeptNoToString.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\Migrations\\20260304_DeptNoToString.cs",
+              "RelativeToolTip": "Migrations\\20260304_DeptNoToString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T04:23:31.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalariesController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\SalariesController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\SalariesController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\SalariesController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\SalariesController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwD8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:19:33.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dept_ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\Dept_ManagerController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\Dept_ManagerController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\Dept_ManagerController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\Dept_ManagerController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAUwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:43:20.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dept_EmpController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\Dept_EmpController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\Dept_EmpController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\Dept_EmpController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\Dept_EmpController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAA6wCAAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:42:23.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Salaries\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Salaries\\Index.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAowGUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:57:09.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAiwLgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T04:32:09.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Salaries\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Details.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Salaries\\Details.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwFAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:19:28.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Salaries\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Delete.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Salaries\\Delete.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:19:06.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Salaries\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Edit.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Salaries\\Edit.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwFAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:19:52.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Employees\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Details.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Employees\\Details.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:14:33.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAADwv2IAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:15:03.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Employees\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Employees\\Delete.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:13:56.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:03:04.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Manager\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Edit.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Manager\\Edit.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv00AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:13:24.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Manager\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Details.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Manager\\Details.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwE8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:12:07.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Manager\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Delete.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Manager\\Delete.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:11:30.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Manager\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Create.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Manager\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:11:03.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Emp\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Edit.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Emp\\Edit.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv00AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:10:26.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Emp\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Details.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Emp\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:09:56.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Emp\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Delete.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Emp\\Delete.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:09:30.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Emp\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Emp\\Create.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Emp\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:08:39.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Departments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Edit.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Departments\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:08:17.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Departments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Details.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Departments\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:05:10.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Departments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Delete.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Departments\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:04:55.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Departments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Departments\\Create.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Departments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:04:16.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Salaries\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Salaries\\Create.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Salaries\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:18:31.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Edit.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Edit.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAADwv2IAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:17:44.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Details.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Details.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv1gAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:16:51.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Delete.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Delete.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvz8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:16:29.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Create.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Create.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv1sAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T03:15:49.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T01:41:27.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Dept_Manager\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Dept_Manager\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Dept_Manager\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:57:58.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Log_AuditoriaSalarios\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAADwv0wAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:56:52.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T04:26:14.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Log_AuditoriaSalarios.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Log_AuditoriaSalarios.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\Log_AuditoriaSalarios.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Log_AuditoriaSalarios.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\Log_AuditoriaSalarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T04:36:23.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:15:53.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T01:39:16.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\User.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:33:55.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Dept_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Dept_Manager.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\Dept_Manager.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Dept_Manager.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\Dept_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:32:50.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAtwCgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:14:11.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Login\\Register.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAADwvzYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:28:53.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:18:34.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "SistemaNominaMVC\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:20:54.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Program.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T04:26:41.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Log_AuditoriaSalariosController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\Log_AuditoriaSalariosController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\Log_AuditoriaSalariosController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\Log_AuditoriaSalariosController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\Log_AuditoriaSalariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:10:13.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SistemaNominaMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-04T01:57:43.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\appsettings.json",
+              "RelativeToolTip": "SistemaNominaMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T04:26:32.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20260304002430_InicializacionDefinitiva.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Migrations\\20260304002430_InicializacionDefinitiva.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Migrations\\20260304002430_InicializacionDefinitiva.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Migrations\\20260304002430_InicializacionDefinitiva.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Migrations\\20260304002430_InicializacionDefinitiva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:24:30.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TitlesController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\TitlesController.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Controllers\\TitlesController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Controllers\\TitlesController.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Controllers\\TitlesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:44:24.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\Salary.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Salary.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\Salary.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T04:25:08.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Dept_Emp.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Dept_Emp.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\Dept_Emp.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Dept_Emp.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\Dept_Emp.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAABBwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:31:03.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Title.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Title.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\Title.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Title.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\Title.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:33:27.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Employee.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\Employee.cs",
+              "ViewState": "AgIAAAoAAABgZmZmZiYowAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T04:24:11.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:40:04.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Departmen.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Departmen.cs",
+              "RelativeDocumentMoniker": "SistemaNominaMVC\\Models\\Departmen.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\SistemaNominaMVC\\SistemaNominaMVC\\Models\\Departmen.cs",
+              "RelativeToolTip": "SistemaNominaMVC\\Models\\Departmen.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAABBwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:30:41.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

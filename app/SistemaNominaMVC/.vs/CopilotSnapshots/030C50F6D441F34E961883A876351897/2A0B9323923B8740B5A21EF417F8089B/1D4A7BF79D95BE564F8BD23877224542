@@ -1,0 +1,18 @@
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
+
+namespace SistemaNominaMVC.Models
+{
+    [PrimaryKey(nameof(emp_no), nameof(dept_no))]
+    public class Dept_Emp
+    {
+        public int emp_no { get; set; }
+        public string dept_no { get; set; }
+
+        [MaxLength(50)]
+        public string from_date { get; set; }
+
+        [MaxLength(50)]
+        public string to_date { get; set; }
+    }
+}

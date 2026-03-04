@@ -1,0 +1,80 @@
+﻿@model SistemaNominaMVC.Models.Dept_Manager
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Detalles del Gerente - Sistema de Nómina</title>
+</head>
+<body class="bg-slate-100 flex items-center justify-center min-h-screen p-6 font-sans">
+
+    <div class="bg-white w-full max-w-lg rounded-[2.5rem] shadow-2xl overflow-hidden border border-gray-100">
+        <div class="bg-indigo-700 p-8 text-white relative overflow-hidden">
+            <div class="relative z-10">
+                <p class="text-[10px] font-black uppercase tracking-[4px] opacity-70 mb-1">Cuerpo Directivo</p>
+                <h2 class="text-3xl font-black italic uppercase">Ficha de <span class="text-indigo-300">Gerente</span></h2>
+            </div>
+            <i class='bx bxs-badge-check absolute -right-4 -bottom-4 text-9xl text-white/10 rotate-12'></i>
+        </div>
+
+        <div class="p-8">
+            <div class="space-y-6 mb-8">
+                
+                <div class="flex items-start gap-4 p-5 bg-slate-50 rounded-2xl border border-slate-100 group hover:bg-white hover:shadow-md transition-all">
+                    <div class="bg-indigo-100 p-3 rounded-xl text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                        <i class='bx bxs-user-pin text-2xl'></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">ID del Empleado</p>
+                        <h3 class="text-xl font-black text-slate-800"># @Model.emp_no</h3>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 p-5 bg-slate-50 rounded-2xl border border-slate-100 group hover:bg-white hover:shadow-md transition-all">
+                    <div class="bg-slate-200 p-3 rounded-xl text-slate-500 group-hover:bg-slate-800 group-hover:text-white transition-colors">
+                        <i class='bx bxs-buildings text-2xl'></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Departamento Asignado</p>
+                        <h3 class="text-xl font-black text-slate-700 uppercase">@Model.dept_no</h3>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-4 bg-indigo-50/50 rounded-2xl border border-indigo-100 text-center">
+                        <p class="text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-1">Inicio de Gestión</p>
+                        <p class="font-black text-slate-700 italic text-sm">@Model.from_date</p>
+                    </div>
+                    <div class="p-4 bg-indigo-50/50 rounded-2xl border border-indigo-100 text-center">
+                        <p class="text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-1">Fin de Gestión</p>
+                        <p class="font-black text-slate-700 italic text-sm">@Model.to_date</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3 mt-10">
+                <a asp-action="Edit"
+                       asp-route-empNo="@Model.emp_no"
+                       asp-route-deptNo="@Model.dept_no"
+                       class="flex-[2] bg-indigo-600 hover:bg-indigo-700 text-white text-center py-4 rounded-2xl font-black shadow-xl shadow-indigo-100 transition-all uppercase tracking-widest text-xs flex items-center justify-center gap-2">
+                    <i class='bx bxs-edit text-lg'></i> Editar Cargo
+                </a>
+                
+                <a asp-action="Index" class="flex-1 text-center py-4 bg-white hover:bg-slate-50 text-slate-500 font-bold rounded-2xl transition-all text-xs uppercase tracking-widest flex items-center justify-center gap-2 border border-slate-200">
+                    <i class='bx bx-arrow-back text-lg'></i> Volver
+                </a>
+            </div>
+            
+            <p class="text-center text-[9px] text-slate-400 uppercase font-black mt-8 tracking-[3px] opacity-40">
+                Nivel de Acceso: Administrativo Superior
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
